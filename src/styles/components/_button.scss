@@ -1,0 +1,27 @@
+// big-button
+.header__button{
+	background: $fuchsia; 
+	border: none;
+	color: #fff;
+	font-weight: normal;
+	font-size: $m-size;
+	padding: 1rem 2.5rem;
+	width: 100%;
+	border-radius: 2px;
+}
+
+// buttons
+.modal__button{
+	background-color: darken($fuchsia, 10%);
+	border: 0;
+	border-bottom: .3rem solid darken($fuchsia, 10%);
+	color: #fff;
+	font-weight:500;
+	padding:1.5rem 12rem;
+}
+
+@media (min-width: $desktop-breakpoint){
+	.big-button{
+		margin-bottom: $xl-size;
+	}
+}

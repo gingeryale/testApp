@@ -1,0 +1,40 @@
+.footer{
+	background-color: darken($dark-blue, 30%);
+	height: 80px;
+	color: black;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+.footer__row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+}
+.footer__id{
+	display:flex;
+	flex-direction:column;
+}
+.footer__title{
+	color: lighten($off-white, 50%);
+	font-weight: bold;
+}
+.footer__copyright{
+	margin-top:0.5rem;
+	font-weight: bold;
+	font-size: 0.7em;
+	color: lighten($dark-blue, 50%);
+}
+.footer__socials{
+	width:160px;
+	display:flex;
+	flex-direction:row;
+}
+
+.social__btn{
+	border:1px solid white;
+	width:30px;
+	height:30px;
+	margin:0.5rem;
+}

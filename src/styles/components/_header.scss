@@ -1,0 +1,21 @@
+.header{
+	background-color: $dark-blue;
+	height:80px;
+}
+.header__title{
+	font-weight: bold;
+	font-size: 1em;
+	color: lighten($dark-blue, 50%);
+}
+.header__subtitle{
+	font-weight: bold;
+	font-size:1em;
+	color:white;
+}
+
+.header-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+}
