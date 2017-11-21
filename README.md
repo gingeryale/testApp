@@ -10,5 +10,9 @@ To see the modal just click on the button on the upper right corner.
 ##### JSX / Babel
 ##### Stateless Functional Components only
 ##### React Modal Component
+##### svg package loader
 
 It was created as part of an entrance exam into a company.
+To fire up the page be sure to run the follwing commands:
+##### yarn run build
+##### yarn run dev-server

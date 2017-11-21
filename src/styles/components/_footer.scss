@@ -33,8 +33,11 @@
 }
 
 .social__btn{
-	border:1px solid white;
-	width:30px;
-	height:30px;
+	border:1px solid #32383b;
+	border-radius:5px;
+	width:28px;
+	height:28px;
+	overflow: hidden;
 	margin:0.5rem;
+	background-color: $off-white;
 }

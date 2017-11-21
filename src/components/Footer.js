@@ -1,4 +1,8 @@
 import React from 'react';
+import Fb from './ico-fb.svg';
+import Tw from './ico-tw.svg';
+import In from './ico-in.svg';
+import Gh from './ico-gh.svg';
 
 
 const Footer = (props) => (
@@ -10,10 +14,11 @@ const Footer = (props) => (
 	   				<span className="footer__copyright">&#169; 2017</span>
 	   			</div>
 	   			<div className="footer__socials">
-	   				<span className="social__btn"><img src="../images/social-fb.png" alt="facebook" /></span>
-	   				<span className="social__btn"><img src="../images/social-twr.png" alt="twitter" /></span>
-	  	   			<span className="social__btn"><img src="../images/social-in.png" alt="linkedin" /></span>
-	   				<span className="social__btn"><img src="../images/social-gh.png" alt="github" /></span>
+
+	   				<span className="social__btn"><Fb width={30} height={30}/></span>
+	   				<span className="social__btn"><Tw width={30} height={30}/></span>
+	   			   	<span className="social__btn"><In width={30} height={30}/></span>
+	   				<span className="social__btn"><Gh width={30} height={30}/></span>
 	   			</div>
    			</div>
    		</div>

@@ -29,5 +29,10 @@
     "validator": "8.0.0",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "babel-plugin-react-svg": "^2.1.0",
+    "html-webpack-inline-svg-plugin": "^0.2.2",
+    "react-svg-loader": "^2.1.0"
   }
 }
