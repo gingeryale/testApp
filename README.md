@@ -16,3 +16,5 @@ It was created as part of an entrance exam into a company.
 To fire up the page be sure to run the follwing commands:
 ##### yarn run build
 ##### yarn run dev-server
+
+# see file finale_result.png to see what the page should look like
